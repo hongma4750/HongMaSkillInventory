@@ -8,16 +8,16 @@
 	
 	<table border="1">
 		<tr>
-			<td>지역 아이디</td>
-			<td>지역 이름</td>
-			<td>구역 아이디</td>
+			<td>TOPIC</td>
+			<td>SEQ</td>
+			<td>INFO</td>
 		</tr>
 	
 		<c:forEach items="${list }" var="i">
 			<tr>
-				<td>${i.COUNTRY_ID }</td>
-				<td>${i.COUNTRY_NAME }</td>
-				<td>${i.REGION_ID }</td>
+				<td>${i.TOPIC }</td>
+				<td>${i.SEQ }</td>
+				<td>${i.INFO }</td>
 			</tr>
 		</c:forEach>
 		

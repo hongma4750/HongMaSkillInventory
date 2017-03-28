@@ -8,7 +8,7 @@
   
   
 	 <select id="selectEx" resultType="hongma.bbs.service.exVO">
-		SELECT * FROM COUNTRIES
+		SELECT * FROM HELP
 		
 	</select>
 	
