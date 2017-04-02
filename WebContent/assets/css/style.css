@@ -258,7 +258,7 @@ ul.top-menu > li > .logout {
     height:17px;
     width:17px;
     display:inline-block;
-    background: url("../img/nav-expand.png") no-repeat top;
+   	background: url("../img/nav-expand.png") no-repeat top;
     border-radius:3px;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
@@ -350,7 +350,7 @@ ul.sidebar-menu li ul.sub li a:link a:visited a:active{
 	background:transparent;
 }
  */
- /*¸ð¶ì¸ð¶ì  
+ /*ï¿½ï¿½ï¿½ï¿½ï¿½  
 ul.sidebar-menu li ul.sub li > a:visited{
 	color: #aeb2b7;
 	background:#424a5d;
