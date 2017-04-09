@@ -31,8 +31,9 @@
 		                		<div class="form-group">
 		                              <label class="col-sm-2 col-sm-2 control-label" style="text-align:center;"> ID </label>
 		                              <div class="col-sm-8">
-		                                  <input type="text" class="form-control" id="focusedInput" name="" >
-		                                  <span class="help-block">다른 사용자가 사용하고 있는 아이디 입니다.</span>
+		                                  <input type="text" class="form-control"  name="user_id" >	<!-- id="focusedInput" -->
+		                                  <span class="help-block" id="msg_id">아이디는 영문자+숫자를 사용하여야 하고 최소 6글자 이상입니다.</span>
+		                                  <span class="help-block" id="error_id" style="display:none;">다른 사용자가 사용하고 있는 아이디 입니다.</span>
 		                              </div>
 		                        </div>
 	                          	<!-- ID -->
@@ -41,8 +42,10 @@
 		                          <div class="form-group">
 		                              <label class="col-sm-2 col-sm-2 control-label" style="text-align:center;"> PW </label>
 		                              <div class="col-sm-8">
-		                                  <input type="text" class="form-control" name="" >
-		                                  <span class="help-block">비밀번호를 올바르게 설정해 주세요</span>
+		                                  <input type="text" class="form-control" name="user_pwd" >
+		                                  <span class="help-block" id="msg_pwd">비밀번호는 영문자+숫자+특수문자가 포함되어야 하고 최소 6글자입니다</span>
+		                                  <span class="help-block" id="error_pwd" style="display:none;">비밀번호를 올바르게 설정해 주세요</span>
+		                                  
 		                              </div>
 		                          </div>
 		                          <!-- PW -->
@@ -51,8 +54,9 @@
 		                          <div class="form-group">
 		                              <label class="col-sm-2 col-sm-2 control-label" style="text-align:center;"> PW 확인 </label>
 		                              <div class="col-sm-8">
-		                                  <input type="text" class="form-control" name="" >
-		                                  <span class="help-block">일치하지 않는 비밀번호 입니다.</span>
+		                                  <input type="text" class="form-control" name="user_pwd_check" >
+		                                  <span class="help-block" id="msg_pwd_check">비밀번호를 한번더 입력해 주세요</span>
+		                                  <span class="help-block" id="error_pwd_check" style="display:none;">일치하지 않는 비밀번호 입니다.</span>
 		                              </div>
 		                          </div>
 		                          <!-- PW확인 -->
@@ -62,8 +66,8 @@
 		                          <div class="form-group">
 		                              <label class="col-sm-2 col-sm-2 control-label" style="text-align:center;"> 이름 </label>
 		                              <div class="col-sm-8">
-		                                  <input type="text" class="form-control" name="" >
-		                                  <span class="help-block">' - ' 제거 해주세요</span>
+		                                  <input type="text" class="form-control" name="user_name" >
+		                                  <!-- <span class="help-block">' - ' 제거 해주세요</span> -->
 		                              </div>
 		                          </div>
 	                          	  <!-- 이름 -->
@@ -73,8 +77,10 @@
 		                          <div class="form-group">
 		                              <label class="col-sm-2 col-sm-2 control-label" style="text-align:center;"> 핸드폰 번호 </label>
 		                              <div class="col-sm-8">
-		                                  <input type="text" class="form-control" name="" >
-		                                  <span class="help-block">' - ' 제거 해주세요</span>
+		                                  <input type="text" class="form-control" name="user_phone" >
+		                                  <span class="help-block" id="msg_phone">' - ' 없이 휴대폰 번호 11자리를 입력해 주세요</span>
+		                                  <span class="help-block" id="error_phone" style="display:none;">' - ' 제거 해주세요</span>
+		                                  
 		                              </div>
 		                          </div>
 	                          	  <!-- 핸드폰 번호 -->
