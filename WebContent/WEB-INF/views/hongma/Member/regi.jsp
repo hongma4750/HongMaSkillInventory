@@ -25,7 +25,7 @@
 	                		
 	                		<div class="ln_solid"></div>
 	                		
-	                		<form class="form-horizontal style-form" method="get">
+	                		<form class="form-horizontal style-form" method="post">
 	                		
 	                			<!-- ID -->
 		                		<div class="form-group">
@@ -130,7 +130,8 @@
           </section>
 	</section>
 	
-	
+<script src="js/regi/hongma.regi.js"></script>
+
 <script type="text/javascript">
 function readURL(input) {
     if (input.files && input.files[0]) {

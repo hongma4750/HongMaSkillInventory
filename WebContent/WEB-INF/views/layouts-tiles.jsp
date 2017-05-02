@@ -29,12 +29,7 @@
     
 </head>
 
-<section id="container" >
-	<tiles:insertAttribute name="nav"/>
-	<tiles:insertAttribute name="sidebar"/>
-	<tiles:insertAttribute name="content"/>
-	<tiles:insertAttribute name="footer"/> 
-</section>
+
 
 
 <!-- template 링크 -->
@@ -59,6 +54,13 @@
 <script src="assets/js/zabuto_calendar.js"></script>
 <!-- template 링크 -->
 	
+	
+	<section id="container" >
+		<tiles:insertAttribute name="nav"/>
+		<tiles:insertAttribute name="sidebar"/>
+		<tiles:insertAttribute name="content"/>
+		<tiles:insertAttribute name="footer"/> 
+	</section>
 </body>
 </html>
 
