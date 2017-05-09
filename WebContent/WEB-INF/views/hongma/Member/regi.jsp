@@ -121,7 +121,10 @@
 		                          </div>
 	                          	  <!-- 이미지 -->
 	                          	  
+	                          	  <div class="ln_solid"></div>
 	                          	  
+									<button type="button" class="btn btn-primary">저장</button>
+									<button type="button" class="btn btn-danger">취소</button>
 	                          </form>
                           
 	                		</div>
@@ -130,7 +133,7 @@
           </section>
 	</section>
 	
-<script src="js/regi/hongma.regi.js"></script>
+<script src="apps/js/regi/hongma.regi.js"></script>
 
 <script type="text/javascript">
 function readURL(input) {
